@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Measurement" representedClassName=".Measurement" syncable="YES" codeGenerationType="class">
+        <attribute name="ambrosia" optional="YES" attributeType="String"/>
+        <attribute name="beifuss" optional="YES" attributeType="String"/>
+        <attribute name="birke" optional="YES" attributeType="String"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="erle" optional="YES" attributeType="String"/>
+        <attribute name="esche" optional="YES" attributeType="String"/>
+        <attribute name="graeser" optional="YES" attributeType="String"/>
+        <attribute name="hasel" optional="YES" attributeType="String"/>
+        <attribute name="roggen" optional="YES" attributeType="String"/>
+        <relationship name="symptoms" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Symptom" inverseName="measurement" inverseEntity="Symptom"/>
+    </entity>
+    <entity name="Symptom" representedClassName=".Symptom" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="measurement" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Measurement" inverseName="symptoms" inverseEntity="Measurement"/>
+    </entity>
+    <elements>
+        <element name="Measurement" positionX="-63" positionY="-18" width="128" height="193"/>
+        <element name="Symptom" positionX="210.52734375" positionY="-16.265625" width="128" height="73"/>
+    </elements>
+</model>

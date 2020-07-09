@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0BA81624955D9C00C39365 /* DWDClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0BA81524955D9C00C39365 /* DWDClient.swift */; };
+		6A4DB40624AE5BB000757E32 /* MainPollenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DB40524AE5BB000757E32 /* MainPollenViewController.swift */; };
+		6A4DB40824AE791200757E32 /* BelastungTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DB40724AE791200757E32 /* BelastungTableViewCell.swift */; };
+		6A520C9F24B096910009A414 /* PollenDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A520C9D24B096910009A414 /* PollenDiary.xcdatamodeld */; };
+		6A520CA124B0BA8B0009A414 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A520CA024B0BA8B0009A414 /* DataController.swift */; };
+		6A52902A24941494004CE830 /* PollenResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52902924941494004CE830 /* PollenResult.swift */; };
+		6A5486E024A8FD0A00146D1B /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5486DF24A8FD0A00146D1B /* SymptomsViewController.swift */; };
+		6A56A28D24B2F35F009F55E4 /* StatistikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56A28C24B2F35F009F55E4 /* StatistikViewController.swift */; };
+		6A8095BC2491424100D9750A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8095BB2491424100D9750A /* AppDelegate.swift */; };
+		6A8095BE2491424100D9750A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8095BD2491424100D9750A /* SceneDelegate.swift */; };
+		6A8095C32491424100D9750A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8095C12491424100D9750A /* Main.storyboard */; };
+		6A8095C52491424200D9750A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8095C42491424200D9750A /* Assets.xcassets */; };
+		6A8095C82491424200D9750A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8095C62491424200D9750A /* LaunchScreen.storyboard */; };
+		6A8095D324914E7300D9750A /* PollenRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8095D224914E7300D9750A /* PollenRegion.swift */; };
+		6AFEE92124AD1E1D006558A7 /* RegionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEE92024AD1E1D006558A7 /* RegionSelectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A0BA81524955D9C00C39365 /* DWDClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWDClient.swift; sourceTree = "<group>"; };
+		6A4DB40524AE5BB000757E32 /* MainPollenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPollenViewController.swift; sourceTree = "<group>"; };
+		6A4DB40724AE791200757E32 /* BelastungTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelastungTableViewCell.swift; sourceTree = "<group>"; };
+		6A520C9E24B096910009A414 /* PollenDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PollenDiary.xcdatamodel; sourceTree = "<group>"; };
+		6A520CA024B0BA8B0009A414 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		6A52902924941494004CE830 /* PollenResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollenResult.swift; sourceTree = "<group>"; };
+		6A5486DF24A8FD0A00146D1B /* SymptomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
+		6A56A28C24B2F35F009F55E4 /* StatistikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatistikViewController.swift; sourceTree = "<group>"; };
+		6A8095B82491424100D9750A /* Pollen Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pollen Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8095BB2491424100D9750A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A8095BD2491424100D9750A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6A8095C22491424100D9750A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A8095C42491424200D9750A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A8095C72491424200D9750A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A8095C92491424200D9750A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8095D224914E7300D9750A /* PollenRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollenRegion.swift; sourceTree = "<group>"; };
+		6AFEE92024AD1E1D006558A7 /* RegionSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionSelectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A8095B52491424100D9750A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A8095AF2491424100D9750A = {
+			isa = PBXGroup;
+			children = (
+				6A8095BA2491424100D9750A /* Pollen Diary */,
+				6A8095B92491424100D9750A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A8095B92491424100D9750A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A8095B82491424100D9750A /* Pollen Diary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A8095BA2491424100D9750A /* Pollen Diary */ = {
+			isa = PBXGroup;
+			children = (
+				6A8095D124914E3000D9750A /* Models */,
+				6A8095BB2491424100D9750A /* AppDelegate.swift */,
+				6A8095BD2491424100D9750A /* SceneDelegate.swift */,
+				6A8095D02491428E00D9750A /* Controllers */,
+				6A8095CF2491426000D9750A /* Views */,
+				6A8095C92491424200D9750A /* Info.plist */,
+			);
+			path = "Pollen Diary";
+			sourceTree = "<group>";
+		};
+		6A8095CF2491426000D9750A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A8095C12491424100D9750A /* Main.storyboard */,
+				6A8095C42491424200D9750A /* Assets.xcassets */,
+				6A8095C62491424200D9750A /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A8095D02491428E00D9750A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A5486DF24A8FD0A00146D1B /* SymptomsViewController.swift */,
+				6AFEE92024AD1E1D006558A7 /* RegionSelectionViewController.swift */,
+				6A4DB40524AE5BB000757E32 /* MainPollenViewController.swift */,
+				6A4DB40724AE791200757E32 /* BelastungTableViewCell.swift */,
+				6A56A28C24B2F35F009F55E4 /* StatistikViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6A8095D124914E3000D9750A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A8095D224914E7300D9750A /* PollenRegion.swift */,
+				6A52902924941494004CE830 /* PollenResult.swift */,
+				6A0BA81524955D9C00C39365 /* DWDClient.swift */,
+				6A520C9D24B096910009A414 /* PollenDiary.xcdatamodeld */,
+				6A520CA024B0BA8B0009A414 /* DataController.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A8095B72491424100D9750A /* Pollen Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A8095CC2491424200D9750A /* Build configuration list for PBXNativeTarget "Pollen Diary" */;
+			buildPhases = (
+				6A8095B42491424100D9750A /* Sources */,
+				6A8095B52491424100D9750A /* Frameworks */,
+				6A8095B62491424100D9750A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pollen Diary";
+			productName = "Pollen Diary";
+			productReference = 6A8095B82491424100D9750A /* Pollen Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A8095B02491424100D9750A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Wolfgang Sigel";
+				TargetAttributes = {
+					6A8095B72491424100D9750A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 6A8095B32491424100D9750A /* Build configuration list for PBXProject "Pollen Diary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A8095AF2491424100D9750A;
+			productRefGroup = 6A8095B92491424100D9750A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A8095B72491424100D9750A /* Pollen Diary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A8095B62491424100D9750A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8095C82491424200D9750A /* LaunchScreen.storyboard in Resources */,
+				6A8095C52491424200D9750A /* Assets.xcassets in Resources */,
+				6A8095C32491424100D9750A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A8095B42491424100D9750A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4DB40824AE791200757E32 /* BelastungTableViewCell.swift in Sources */,
+				6A0BA81624955D9C00C39365 /* DWDClient.swift in Sources */,
+				6A8095BC2491424100D9750A /* AppDelegate.swift in Sources */,
+				6A56A28D24B2F35F009F55E4 /* StatistikViewController.swift in Sources */,
+				6A52902A24941494004CE830 /* PollenResult.swift in Sources */,
+				6AFEE92124AD1E1D006558A7 /* RegionSelectionViewController.swift in Sources */,
+				6A520CA124B0BA8B0009A414 /* DataController.swift in Sources */,
+				6A520C9F24B096910009A414 /* PollenDiary.xcdatamodeld in Sources */,
+				6A8095BE2491424100D9750A /* SceneDelegate.swift in Sources */,
+				6A5486E024A8FD0A00146D1B /* SymptomsViewController.swift in Sources */,
+				6A4DB40624AE5BB000757E32 /* MainPollenViewController.swift in Sources */,
+				6A8095D324914E7300D9750A /* PollenRegion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A8095C12491424100D9750A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A8095C22491424100D9750A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A8095C62491424200D9750A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A8095C72491424200D9750A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A8095CA2491424200D9750A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A8095CB2491424200D9750A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A8095CD2491424200D9750A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pollen Diary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolfgangsigel.Pollen-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A8095CE2491424200D9750A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pollen Diary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolfgangsigel.Pollen-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A8095B32491424100D9750A /* Build configuration list for PBXProject "Pollen Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A8095CA2491424200D9750A /* Debug */,
+				6A8095CB2491424200D9750A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A8095CC2491424200D9750A /* Build configuration list for PBXNativeTarget "Pollen Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A8095CD2491424200D9750A /* Debug */,
+				6A8095CE2491424200D9750A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A520C9D24B096910009A414 /* PollenDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A520C9E24B096910009A414 /* PollenDiary.xcdatamodel */,
+			);
+			currentVersion = 6A520C9E24B096910009A414 /* PollenDiary.xcdatamodel */;
+			path = PollenDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6A8095B02491424100D9750A /* Project object */;
+}
